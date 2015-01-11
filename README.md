@@ -24,27 +24,29 @@ How To 用法
 
 1. [Sign up](http://www.faceplusplus.com/uc/people/signup) or use your [existing Face++ account](http://www.faceplusplus.com/uc/people/login).
 2. [Create a Face++ App](http://www.faceplusplus.com/create-a-new-app/).
-3. Copy the `API Key` and `API Secret` into `guardian.cfg`
+3. Copy the `API Key` and `API Secret` into `guardian.cfg` (continue to see instruction)
+4. You can switch to use the server in China mainland (Aliyun) by uncommenting `# SERVER = "http://api.cn.faceplusplus.com/"`.
+5. Install the requirements by simply run `sudo pip install -r requirements.txt`.
+6. Run `python guardian.py test/*` to test or run with your own images `python guardian.py your_image.jpg`.
+
 ```Python
 API_KEY = "<your face++ api key here>"
 API_SECRET = "<your face++ api secret here>"
 ```
-4. You can switch to use the server in China mainland (Aliyun) by uncommenting `# SERVER = "http://api.cn.faceplusplus.com/"`.
-5. Install the requirements by simply run `sudo pip install -r requirements.txt`.
-6. Run `python guardian.py test/*` to test or run with your own images `python guardian.py your_image.jpg`.
 
 ### 简单用法
 
 1. [注册](http://www.faceplusplus.com.cn/uc/people/signup)或[登录](http://www.faceplusplus.com/uc/people/login) Face++ 账号
 2. [创建一个 Face++ App](http://www.faceplusplus.com.cn/create-a-new-app/)
-3. 拷贝`API Key`和`API Secret`进`guardian.cfg`
+3. 拷贝`API Key`和`API Secret`进`guardian.cfg`（见下方）
+4. 你可以去掉`# SERVER = "http://api.cn.faceplusplus.com/"`的注释以使用位于中国大陆的Face++的服务器（阿里云）
+5. 运行`sudo pip install -r requirements.txt`以安装所依赖的库
+6. 运行`python guardian.py test/*`或使用你自己的图片`python guardian.py your_photo.jpg`来测试
+
 ```Python
 API_KEY = "<your face++ api key here>"
 API_SECRET = "<your face++ api secret here>"
 ```
-4. 你可以去掉`# SERVER = "http://api.cn.faceplusplus.com/"`的注释以使用位于中国大陆的Face++的服务器（阿里云）
-5. 运行`sudo pip install -r requirements.txt`以安装所依赖的库
-6. 运行`python guardian.py test/*`或使用你自己的图片`python guardian.py your_photo.jpg`来测试
 
 ### Advanced usage
 
