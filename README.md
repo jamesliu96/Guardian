@@ -24,7 +24,7 @@ How To 用法
 
 1. [Sign up](http://www.faceplusplus.com/uc/people/signup) or use your [existing Face++ account](http://www.faceplusplus.com/uc/people/login).
 2. [Create a Face++ App](http://www.faceplusplus.com/create-a-new-app/).
-3. Copy the `API Key` and `API Secret` into `guardian.cfg` (continue to see instruction)
+3. Copy the `API Key` and `API Secret` into `guardian.cfg` (see below)
 4. You can switch to use the server in China mainland (Aliyun) by uncommenting `# SERVER = "http://api.cn.faceplusplus.com/"`.
 5. Install the requirements by simply run `sudo pip install -r requirements.txt`.
 6. Run `python guardian.py test/*` to test or run with your own images `python guardian.py your_image.jpg`.
